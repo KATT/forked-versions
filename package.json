@@ -2,6 +2,12 @@
   "name": "repro",
   "version": "0.1.0",
   "private": true,
+  "imports": {
+    "#mylib": {
+      "react-server": "./mylib/rsc.ts",
+      "default": "./mylib/client.ts"
+    }
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
