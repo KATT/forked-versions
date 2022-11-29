@@ -1,8 +1,14 @@
 {
   "exports": {
     ".": {
-      "react-server": "./rsc.ts",
-      "default": "./client.ts"
+      "react-server": {
+        "browser": "./rsc.ts",
+        "node": "./rsc.ts"
+      },
+      "default": {
+        "browser": "./client.ts",
+        "node": "./client.ts"
+      }
     }
   }
 }
