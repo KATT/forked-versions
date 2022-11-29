@@ -1,1 +1,2 @@
-https://twitter.com/alexdotjs/status/1597548619577823232
+- https://twitter.com/alexdotjs/status/1597548619577823232
+- https://github.com/vercel/next.js/issues/43540
